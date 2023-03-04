@@ -1,0 +1,159 @@
+.image-container {
+  width: 100%;
+  height: auto;
+  position: absolute;
+
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -140%);
+  z-index: 2;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.welcome {
+  font-family: 'Italiana', serif;
+  font-style: italic;
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 0px;
+  letter-spacing: .2rem;
+}
+
+.path {
+  color: rgb(212, 212, 212);
+  font-family: 'Italiana', serif;
+  font-style: italic;
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: .5rem;
+}
+
+.rectangles-container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: -25rem;
+  left: 50%;
+  transform: translate(-50%, 40%);
+  width: 1600px;
+}
+
+.rectangle22, .rectangle33,.rectangle11 {
+  border-radius: 35px;
+  border-color: black;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.rectangle11 {
+  margin-top: 16rem;
+  width: 465px;
+  height: 740px;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.rectangle22{
+  margin-top: 16rem;
+  width:  465px;
+  height: 740px;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.rectangle33{
+  margin-top: 16rem;
+  width: 465px;
+  height: 740px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.rectangle-text {
+  position: relative;
+  font-style: italic;
+  align-items: center;
+  top: -14rem;
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  color: black;
+}
+
+.rectangle:hover {
+  background-color: rgb(122, 112, 112);
+}
+
+.rectangle:active {
+  background-color: rgb(64, 63, 63);
+}
+
+.rectangle p {
+  margin: 0;
+  text-align: center;
+}
+
+.rectangle li {
+  text-align: left;
+  top: 10rem;
+  margin-right: 9rem;
+  margin-bottom: -1rem;
+  margin-top: -5rem;
+  width: 100%;
+}
+.list{
+  color: rgb(24, 24, 24);
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  text-align: left;
+  margin-top: -10rem;
+  font-weight: bold;
+}
+.special {
+  margin-left: 3rem;
+}
+
+.location-box {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-right: -50rem;
+  width: 200px;
+  height: 100px;
+  background-color: #ccc;
+  margin: 0;
+  padding: 0;
+}
